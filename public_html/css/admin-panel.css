@@ -1,0 +1,811 @@
+body{
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #e6e6ed;
+}
+
+a{
+   text-decoration: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+/*----- For Mobile -----*/
+
+@media screen and (max-width: 768px) {
+
+   /*----- Top Bar! -----*/
+
+   .top-bar-section{
+     height: 70px;
+     width: 100%;
+     background-image: linear-gradient(to right, #185a9d , #43cea2);
+     overflow: hidden;
+ }
+ 
+ .top-bar-container{
+    width: 100%;
+    margin: auto;
+    height: 70px;
+ }
+ 
+ .top-bar-section img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+ }
+
+ .top-bar-section p{
+  float: right;
+  margin-top: 26px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: whitesmoke;
+ }
+
+ /* Style all font awesome icons */
+ .fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 25px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  margin-left: 5px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  padding-top: 20px;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Youtube*/
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* YouTube*/
+.fa-youtube {
+   background: #bb0000;
+   color: white;
+ }
+
+
+/* Whatsapp*/
+.fa-whatsapp {
+   background: #25D366;
+   color: white;
+}
+
+   /*----- Menu btn Bar! -----*/
+
+   .mobile-nav-img{
+      float: right;
+      margin-top: 9px;
+      margin-right: 10px;
+      cursor: pointer;
+   }
+
+   .hide-show-menu{
+       display: none;
+    }
+
+   .menu-bar-section{
+      width: 100%;
+      height: 50px;
+      background-color: #181c23;
+   }
+
+    /*----- Mobile Menu Content! -----*/
+
+    .mobile-menu-show-hide{
+       display: none;
+    }
+
+    .mobile-menu-show-hide li{
+     display: inline;
+     font-size: 14px;
+  }
+
+  .mobile-menu-show-hide ul{
+     text-align: center;
+     border-top: 1px solid #43cea2;
+  }
+
+  .mobile-menu-show-hide li img{
+     position: relative;
+     top: 2px;
+     right: 3px;
+  }
+
+  .mobile-menu-show-hide a{
+     display: block;
+     background-color: #181c23;
+     height: 50px;
+     width: 100%;
+     line-height: 50px;
+     color: whitesmoke;
+  }
+
+  .mobile-menu-show-hide a:hover{
+     color: #43cea2;
+     background-color: #252b35;
+  }
+
+   /*----- Main Content! -----*/
+
+   .main-content-section{
+       width: 100%;
+       margin: auto;
+   }
+
+   /*----- Main Content Page Info Container -----*/
+
+   .page-info-container{
+      width: 95%;
+      margin: auto;
+      height: 60px;
+      background-color: whitesmoke;
+      margin-top: 20px;
+      border-radius: 5px;
+      border: 1px solid #d6d6d6;
+      border-top: 2px solid #43cea2;
+   }
+
+   .left-content-page-info img{
+       float:left;
+       margin: 18px;
+   }
+
+   .left-content-page-info h4{
+      float:left; 
+  }
+
+  .page-info-edit1{
+      float:right; 
+      margin-top: 22px;
+      margin-right: 18px;
+      font-size: 13px;
+  }
+
+  .page-info-edit2{
+      float:right; 
+      margin-top: 22px;
+      margin-right: 8px;
+      font-size: 13px;
+      color: #43cea2;
+  }
+
+}
+
+/*----- For Tablet -----*/
+
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+
+    /*----- Top Bar! -----*/
+
+    .top-bar-section{
+     height: 70px;
+     width: 100%;
+     background-image: linear-gradient(to right, #185a9d , #43cea2);
+     overflow: hidden;
+ }
+ 
+ .top-bar-container{
+    width: 100%;
+    margin: auto;
+    height: 70px;
+ }
+
+ .top-bar-section img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+ }
+
+ .top-bar-section p{
+  float: right;
+  margin-top: 26px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: whitesmoke;
+ }
+
+ /* Style all font awesome icons */
+ .fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 25px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  margin-left: 5px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  padding-top: 20px;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Youtube*/
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* YouTube*/
+.fa-youtube {
+   background: #bb0000;
+   color: white;
+ }
+
+
+   /* Whatsapp*/
+   .fa-whatsapp {
+      background: #25D366;
+      color: white;
+   }
+
+   /*----- Menu Bar! -----*/
+
+   .mobile-nav-btn{
+       display: none;
+   }
+
+   .menu-bar-section{
+      width: 100%;
+      height: 50px;
+      background-color: #181c23;
+      overflow: hidden;
+   }
+
+   .menu-bar-section li{
+      display: inline;
+      font-size: 14px;
+   }
+
+   .last-li{
+      border-right: 1px solid #464646;
+   }
+
+   .menu-bar-section ul{
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-size: 0;
+   }
+
+   .menu-bar-section li img{
+      position: relative;
+      top: 2px;
+      right: 3px;
+   }
+
+   .menu-bar-section a{
+      display: inline-block;
+      height: 50px;
+      width: 80px;
+      line-height: 50px;
+      color: whitesmoke;
+      border-left: 1px solid #464646;
+   }
+
+   .menu-bar-section a:hover{
+      color: #43cea2;
+      background-color: #252b35;
+   }
+
+   /*----- Mobile Menu Content! -----*/
+
+   .mobile-menu-show-hide{
+     display: none;
+  }
+
+   /*----- Main Content! -----*/
+
+   .main-content-section{
+       width: 100%;
+       margin: auto;
+   }
+
+   /*----- Main Content Page Info Container -----*/
+
+   .page-info-container{
+      width: 95%;
+      margin: auto;
+      height: 60px;
+      background-color: whitesmoke;
+      margin-top: 20px;
+      border-radius: 5px;
+      border: 1px solid #d6d6d6;
+      border-top: 2px solid #43cea2;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   }
+
+   .left-content-page-info img{
+       float:left;
+       margin: 18px;
+   }
+
+   .left-content-page-info h4{
+      float:left; 
+  }
+
+  .page-info-edit1{
+      float:right; 
+      margin-top: 22px;
+      margin-right: 18px;
+      font-size: 13px;
+  }
+
+  .page-info-edit2{
+      float:right; 
+      margin-top: 22px;
+      margin-right: 8px;
+      font-size: 13px;
+      color: #43cea2;
+  }
+
+  /*----- Social Media Section -----*/
+
+  .Social-Media-container{
+   width: 95%;
+   MARGIN: AUTO;
+   background-color: whitesmoke;
+   margin-top: 20px;
+   border-radius: 5px;
+   border: 1px solid #d6d6d6;
+   border-top: 2px solid #43cea2;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.social-media-title-box{
+   width: 100%;
+   height: 60px;
+   border-bottom:1px solid #d6d6d6;
+}
+
+.social-media-title-box img{
+   float:left;
+   margin: 18px;
+}
+
+.social-media-title-box h4{
+   float: left;
+}
+
+/*----- Social Media Boxes -----*/
+
+.Social-boxes{
+   width: 100%;
+   height: 50px;
+   overflow: hidden;
+   border-bottom: 1px solid #d6d6d6;
+}
+
+.wrap-social-btn-inputs{
+   margin-right: 50px;
+}
+
+.Social-boxes img{
+   float: left;
+   margin-left: 110px;
+   margin-right: 10px;
+   margin-top: 12px;
+}
+
+.Social-boxes p{
+   float: left;
+}
+
+.Social-boxes a{
+   color: #43cea2;
+}
+
+.Social-boxes input{
+   float: right;
+   margin-right: 10px;
+   margin-top: 15px;
+}
+
+.Social-boxes button{
+   float: right;
+   margin-right: 20px;
+   margin-top: 13px;
+}
+
+.button-update{
+   background-color: #43cea2;
+   border: none;
+   color: white;
+   padding: 5px 10px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+.button-delete{
+   background-color: red;
+   border: none;
+   color: white;
+   padding: 5px 10px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+.button-update:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.button-delete:hover{
+   cursor: pointer;
+   opacity: 0.7;
+}
+
+}
+
+/*----- For Desktop -----*/
+
+@media only screen and (min-width: 1050px) {
+
+    /*----- Top Bar! -----*/
+
+    .top-bar-section{
+        height: 70px;
+        width: 100%;
+        background-image: linear-gradient(to right, #185a9d , #43cea2);
+        overflow: hidden;
+    }
+    
+    .top-bar-container{
+       width: 1040px;
+       margin: auto;
+       height: 70px;
+    }
+
+    /* Style all font awesome icons */
+     .fa {
+        padding: 5px;
+        font-size: 10px;
+        width: 25px;
+        height: 20px;
+        text-align: center;
+        text-decoration: none;
+        float: left;
+        margin-left: 5px;
+        border-radius: 0px 0px 10px 10px;
+     }
+     
+     /* Add a hover effect if you want */
+     .fa:hover {
+        opacity: 0.7;
+        padding-top: 20px;
+     }
+     
+     /* Set a specific color for each brand */
+     
+     /* Facebook */
+     .fa-facebook {
+        background: #3B5998;
+        color: white;
+     }
+     
+     /* Twitter */
+     .fa-twitter {
+        background: #55ACEE;
+        color: white;
+     }
+
+     /* instagram*/
+     .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+
+      /* YouTube*/
+     .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+
+      /* Whatsapp*/
+      .fa-whatsapp {
+         background: #25D366;
+         color: white;
+      }
+
+
+    .top-bar-section img{
+     width: 50px;
+     height: 50px;
+     object-fit: cover;
+     overflow: hidden;
+     border-radius: 50px;
+     float: right;
+     margin-top: 10px;
+    }
+
+    .top-bar-section p{
+     float: right;
+     margin-top: 26px;
+     margin-right: 10px;
+     font-size: 14px;
+     color: whitesmoke;
+    }
+
+    /*----- Menu Bar! -----*/
+
+    .mobile-nav-btn{
+       display: none;
+   }
+
+    .menu-bar-section{
+       width: 100%;
+       height: 50px;
+       background-color: #181c23;
+       overflow: hidden;
+    }
+
+    .menu-bar-section li{
+       display: inline;
+       font-size: 14px;
+    }
+
+    .last-li{
+       border-right: 1px solid #464646;
+    }
+
+    .menu-bar-section ul{
+       padding: 0;
+       margin: 0;
+       text-align: center;
+       font-size: 0;
+    }
+
+    .menu-bar-section li img{
+       position: relative;
+       top: 2px;
+       right: 3px;
+    }
+
+    .menu-bar-section a{
+       display: inline-block;
+       height: 50px;
+       width: 80px;
+       line-height: 50px;
+       color: whitesmoke;
+       border-left: 1px solid #464646;
+    }
+
+    .menu-bar-section a:hover{
+       color: #43cea2;
+       background-color: #252b35;
+    }
+
+    /*----- Mobile Menu Content! -----*/
+
+    .mobile-menu-show-hide{
+     display: none;
+  }
+
+    /*----- Main Content! -----*/
+
+    .main-content-section{
+        width: 1040px;
+        margin: auto;
+    }
+
+    /*----- Main Content Page Info Container -----*/
+
+    .page-info-container{
+       width: 100%;
+       height: 60px;
+       background-color: whitesmoke;
+       margin-top: 20px;
+       border-radius: 5px;
+       border: 1px solid #d6d6d6;
+       border-top: 2px solid #43cea2;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    .left-content-page-info img{
+        float:left;
+        margin: 18px;
+    }
+
+    .left-content-page-info h4{
+       float:left; 
+   }
+
+   .page-info-edit1{
+       float:right; 
+       margin-top: 22px;
+       margin-right: 18px;
+       font-size: 13px;
+   }
+
+   .page-info-edit2{
+       float:right; 
+       margin-top: 22px;
+       margin-right: 8px;
+       font-size: 13px;
+       color: #43cea2;
+   }
+
+   /*----- Social Media Section -----*/
+
+   .Social-Media-container{
+      width: 100%;
+      background-color: whitesmoke;
+      margin-top: 20px;
+      border-radius: 5px;
+      border: 1px solid #d6d6d6;
+      border-top: 2px solid #43cea2;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   }
+
+   .social-media-title-box{
+      width: 100%;
+      height: 60px;
+      border-bottom:1px solid #d6d6d6;
+   }
+
+   .social-media-title-box img{
+      float:left;
+      margin: 18px;
+   }
+
+   .social-media-title-box h4{
+      float: left;
+   }
+
+   /*----- Social Media Boxes -----*/
+
+   .Social-boxes{
+      width: 100%;
+      height: 50px;
+      overflow: hidden;
+      border-bottom: 1px solid #d6d6d6;
+   }
+
+   .wrap-social-btn-inputs{
+      margin-right: 50px;
+   }
+
+   .Social-boxes img{
+      float: left;
+      margin-left: 110px;
+      margin-right: 10px;
+      margin-top: 12px;
+   }
+
+   .Social-boxes p{
+      float: left;
+   }
+
+   .Social-boxes a{
+      color: #43cea2;
+   }
+
+   .Social-boxes input{
+      float: right;
+      margin-right: 10px;
+      margin-top: 15px;
+   }
+
+   .Social-boxes button{
+      float: right;
+      margin-right: 20px;
+      margin-top: 13px;
+   }
+
+   .button-update{
+      background-color: #43cea2;
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+   }
+
+   .button-delete{
+      background-color: red;
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+   }
+
+   .button-update:hover{
+       cursor: pointer;
+       opacity: 0.7;
+   }
+
+   .button-delete:hover{
+      cursor: pointer;
+      opacity: 0.7;
+   }
+
+   /*----- Site Information Section -----*/
+
+   .site-info-container{
+      width: 100%;
+      background-color: whitesmoke;
+      margin-top: 20px;
+      border-radius: 5px;
+      border: 1px solid #d6d6d6;
+      border-top: 2px solid #43cea2;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   }
+
+   .site-info-title-box{
+      width: 100%;
+      height: 60px;
+      border-bottom:1px solid #d6d6d6;
+   }
+
+   .site-info-title-box img{
+      float:left;
+      margin: 18px;
+   }
+
+   .site-info-title-box h4{
+      float: left;
+   }
+
+}

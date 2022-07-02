@@ -1,0 +1,25 @@
+/*----- For Mobile -----*/
+
+@media screen and (max-width: 768px) {
+
+    /*-----  -----*/
+
+}
+
+/*----- For Tablet -----*/
+
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+
+    /*-----  -----*/
+
+}
+
+/*----- For Desktop -----*/
+
+@media only screen and (min-width: 1050px) {
+
+    /*----- Hero Section -----*/
+
+    
+
+}
