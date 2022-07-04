@@ -75,6 +75,10 @@ a:hover{
         -webkit-tap-highlight-color: rgba(0,0,0,0);
     }
 
+    .social-section:hover{
+        opacity: 0.8;
+    }
+
     /*----- FB Container -----*/
 
     .social-container-fb{
