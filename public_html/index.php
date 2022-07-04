@@ -17,15 +17,34 @@
 <div class="top-bar-contact-container">
 
     <div class="phone-section">
+        <img src="img/icons_assets/call.png" alt="">
             <p>Call Us: <a href="tel:123-456-7890">01780 070707</a></p>
     </div>
 
     <div class="email-section">
+        <img src="img/icons_assets/email.png" alt="">
             <p>Email Us: <a href = "mailto: abc@example.com">Business@gmail.com</a></p>
     </div>
 
     <div class="social-section">
-         
+        <a href="">
+         <div class="social-container-fb">
+            <img src="img/social_media/fb.png" alt="">
+         </div>
+         </a>
+
+         <a href="">
+         <div class="social-container-twitter">
+            <img src="img/social_media/twitter.png" alt="">
+         </div>
+         </a>
+
+         <a href="">
+         <div class="social-container-instagram">
+            <img src="img/social_media/instagram.png" alt="">
+         </div>
+         </a>
+
     </div>
 </div>
 </div>
