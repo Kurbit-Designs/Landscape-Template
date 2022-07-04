@@ -204,6 +204,10 @@ a:hover{
         margin-right: 25px;
     }
 
+    .box-containers{
+        float: right;
+ }
+
     /*----- FB Container -----*/
 
     .social-container-fb{
@@ -331,6 +335,10 @@ a:hover{
     .social-section{
         float:right;
         height: 40px;
+    }
+
+    .box-containers{
+        float: right;
     }
 
     /*----- FB Container -----*/
