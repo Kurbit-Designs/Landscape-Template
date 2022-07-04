@@ -7,11 +7,16 @@ body{
 a{
     text-decoration: none;
     color: whitesmoke;
+    outline: none;
 }
 
 a:hover{
     color: #9fc246;
     transition: 0.6s;
+}
+
+*{
+    -webkit-tap-highlight-color: transparent;
 }
 
 /*----- For Mobile -----*/
