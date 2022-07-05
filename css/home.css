@@ -28,8 +28,8 @@ a:hover{
     .top-bar-contact-container{
         width: 100%;
         margin: auto;
-        height: 40px;
-        background-color: #262626;
+        background-color: #222222;
+        padding-bottom: 15px;
     }
     
     .phone-section{
@@ -75,7 +75,7 @@ a:hover{
     }
     
     .social-section{
-        height: 100%;
+        margin-top: 10px;
         background-color: #222222;
         display: flex;
         align-items: center;
@@ -139,6 +139,68 @@ a:hover{
         margin:auto;
         margin-top: 5px;
         margin-left: 4px;
+    }
+
+    /*----- Logo - Nav Section -----*/
+
+    .logo-nav-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo-container{
+        float: left;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+    }
+
+    .logo-container h3{
+        float: left;
+        margin-left: 25px;
+        color: #4d4d4d;
+        letter-spacing: 1px;;
+    }
+
+    .logo-img{
+        float: left;
+        width: 50px;
+    }
+
+    .menu-container{
+        float: right;
+        margin-right: 20px;
+    }
+
+    .menu-container ul{
+        list-style: none;
+        margin-top: 36px;
+        display: none;
+    }
+
+    .menu-container li{
+        float: right;
+        margin-left: 20px;
+    }
+
+    .menu-container li a{
+        color: #4d4d4d;
+    }
+
+    .menu-container li a:hover{
+        color: #9fc246;
+        transition: 0.6s;
+    }
+
+    /*----- Hero Section -----*/
+
+    .hero-container{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .hero-section img{
+        width: 100%;
     }
 }
 
