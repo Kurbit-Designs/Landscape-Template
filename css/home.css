@@ -150,15 +150,20 @@ a:hover{
     .btn-img{
        width: 45px;
        float: right;
-       margin-top: 10px;
-       margin-bottom: 10px;
+       margin-top: 9px;
        margin-right: 20px;
+    }
+
+    .logo-container h3{
+        float: left;
+        margin-left: 15px;
+        margin-top: 20px;
+        letter-spacing: 1px;
     }
 
     .img-logo{
        width: 45px;
-       margin-top: 10px;
-       margin-bottom: 10px;
+       margin-top: 9px;
        margin-left: 20px;
        float: left;
     }
@@ -200,16 +205,16 @@ a:hover{
     .hero-section{
         clear: both;
         width: 100%;
-        height: 500px;
+        height: 400px;
         background-image: url(../img/icons_assets/hero.jpg);
         background-position: center;
-        
+        background-size: cover;
     }
 }
 
 /*----- For Tablet -----*/
 
-@media screen and (min-width: 769px) and (max-width: 1050px) {
+@media screen and (min-width: 769px) and (max-width: 1049px) {
 
     .desktop-nav-container{
         display: none;
@@ -350,15 +355,21 @@ a:hover{
     .btn-img{
         width: 45px;
         float: right;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 7px;
+        margin-bottom: 6px;
         margin-right: 20px;
      }
+
+     .logo-container h3{
+        float: left;
+        margin-left: 15px;
+        letter-spacing: 1px;
+    }
  
      .img-logo{
         width: 45px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 7px;
+        margin-bottom: 6px;
         margin-left: 20px;
         float: left;
      }
@@ -398,11 +409,12 @@ a:hover{
     /*----- Hero Section -----*/
 
     .hero-section{
-        width: 100%;
-        height: 500px;
-        background-image: url(../img/icons_assets/hero.jpg);
-        background-position: center;
-        
+            clear: both;
+            width: 100%;
+            height: 400px;
+            background-image: url(../img/icons_assets/hero.jpg);
+            background-position: center;
+            background-size: cover;
     }
     
 }
@@ -554,15 +566,20 @@ a:hover{
 
     .nav-logo-section{
         width: 1040px;
-        height: 90px;
+        height: 80px;
         margin: 0 auto;
         overflow: hidden;
     }
 
+    .logo-container h3{
+        float: right;
+        margin-left: 15px;
+        letter-spacing: 1px;
+    }
+
     .logo-container{
-        width: 60px;
-        height: 60px;
-        margin-top: 15px;
+        height: 55px;
+        margin-top: 13px;
         margin-left: 15px;
         overflow: hidden;
         float: left;
@@ -576,7 +593,7 @@ a:hover{
     .desktop-nav-container{
         float: right;
         height: 60px;
-        margin-top: 15px;
+        margin-top: 12px;
         margin-right: 15px;
         width: 500px;
         overflow: hidden;
@@ -609,7 +626,7 @@ a:hover{
         height: 500px;
         background-image: url(../img/icons_assets/hero.jpg);
         background-position: center;
-        
+        background-size: cover;
     }
 
 }
