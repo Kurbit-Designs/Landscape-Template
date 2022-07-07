@@ -24,7 +24,7 @@ a:hover{
 @media screen and (max-width: 768px) {
 
     .desktop-nav-container{
-        display: none;
+        display: none !important;
     }
 
     /*----- Top Bar Section -----*/
@@ -224,7 +224,7 @@ a:hover{
 @media screen and (min-width: 769px) and (max-width: 1049px) {
 
     .desktop-nav-container{
-        display: none;
+        display: none !important;
     }
 
     /*----- Top Bar Section -----*/
@@ -362,10 +362,16 @@ a:hover{
     .btn-img{
         width: 45px;
         float: right;
-        margin-top: 7px;
-        margin-bottom: 6px;
+        margin-top: 9px;
         margin-right: 20px;
+        transform: rotate(0deg);
+        transition: transform 0.5s;
      }
+ 
+     .btn-img:active {
+         transform: rotate(180deg);
+         transition:  0s;
+       }
 
      .logo-container h3{
         float: left;
@@ -435,7 +441,7 @@ a:hover{
     }
 
     .nav-container{
-        display: none;
+        display: none !important;
     }
 
     /*----- Top Bar Section -----*/
@@ -604,7 +610,6 @@ a:hover{
         margin-right: 15px;
         width: 500px;
         overflow: hidden;
-        display: show;
     }
 
     .desktop-nav-container ul{
