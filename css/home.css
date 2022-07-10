@@ -250,6 +250,53 @@ a:hover{
     .text-content button:hover{
         background-color: #83a039;
     }
+
+    /*----- Quote Section -----*/
+    
+    .quote-container{
+        width: 100%;
+        background-color: #9fc246;
+    }
+    
+    .quote-section p{
+         color:#e7e7e7;
+         font-size: 24px;
+         display: block;
+         padding: 0px;
+         margin: 0px;
+         text-align: center;
+         padding-top: 20px;
+    }
+
+    .quote-section{
+        width: 100%;
+    }
+
+    .wrapper-btn{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .quote-btn{
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        display: block;
+        width: 110px;
+        height: 35px;
+        border-radius: 25px;
+        border: 1px solid whitesmoke;
+        background-color: #9fc246;
+        color: whitesmoke;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+
+    .quote-btn:hover{
+        border: 1px solid whitesmoke;
+        background-color: whitesmoke;
+        color: #9fc246;
+        cursor: pointer;
+    }
 }
 
 /*----- For Tablet -----*/
@@ -496,6 +543,49 @@ a:hover{
     .text-content button:hover{
         background-color: #83a039;
     }
+
+    /*----- Quote Section -----*/
+    
+    .quote-container{
+        width: 100%;
+        height: 90px;
+        background-color: #9fc246;
+        overflow: hidden;
+    }
+
+    .quote-section{
+         width: 100%;
+         margin: 0 auto;
+    }
+
+    .quote-section p{
+         float: left;
+         line-height: 37px;
+         color:#e7e7e7;
+         font-size: 24px;
+         margin-left: 30px;
+         
+    }
+
+    .quote-btn{
+        float: right;
+        width: 110px;
+        height: 35px;
+        border-radius: 25px;
+        border: 1px solid whitesmoke;
+        background-color: #9fc246;
+        color: whitesmoke;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-right: 20px;
+    }
+
+    .quote-btn:hover{
+        border: 1px solid whitesmoke;
+        background-color: whitesmoke;
+        color: #9fc246;
+        cursor: pointer;
+    }
     
 }
 
@@ -729,7 +819,7 @@ a:hover{
         height: 35px;
         border-radius: 25px;
         border: none;
-        background-color: #8ead3e;
+        background-color: #9fc246;
         color: white;
         cursor: pointer;
         display: block;
@@ -738,7 +828,50 @@ a:hover{
     }
 
     .text-content button:hover{
-        background-color: #83a039;
+        background-color: #9fc246;
+    }
+
+    /*----- Quote Section -----*/
+    
+    .quote-container{
+        width: 100%;
+        height: 90px;
+        background-color: #9fc246;
+        overflow: hidden;
+    }
+
+    .quote-section{
+         width: 1040px;
+         margin: 0 auto;
+    }
+
+    .quote-section p{
+         float: left;
+         line-height: 37px;
+         color:#e7e7e7;
+         font-size: 24px;
+         margin-left: 30px;
+         
+    }
+
+    .quote-btn{
+        float: right;
+        width: 110px;
+        height: 35px;
+        border-radius: 25px;
+        border: 1px solid whitesmoke;
+        background-color: #9fc246;
+        color: whitesmoke;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-right: 20px;
+    }
+
+    .quote-btn:hover{
+        border: 1px solid whitesmoke;
+        background-color: whitesmoke;
+        color: #9fc246;
+        cursor: pointer;
     }
 
 }
@@ -752,7 +885,7 @@ a:hover{
     .hero-section{
         width: 100%;
         height: 500px;
-        background-image: url(../img/icons_assets/hero.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/icons_assets/hero.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
