@@ -669,18 +669,19 @@ p{
         border-radius: 50%;
         overflow: hidden;
         display: flex;
-        justify-content: center;
     }
 
     .about-us-info-container{
         display: flex;
         justify-content: center;
         margin-top: 25px;
+        text-align: center;
     }
     
     .about-us-content{
-        width: 225px;
+        width: 300px;
         overflow: hidden;
+        justify-content: center;
     }
 
     .img-box{
@@ -693,8 +694,7 @@ p{
         transition:  0.6s;
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
-        display: flex;
-        justify-content: center;
+        margin: auto;
     }
 
     .img-box:hover{
@@ -728,8 +728,10 @@ p{
     }
 
     .about-us-content p{
-        width: 77%;
+        padding-left: 10px;
+        padding-right: 10px;
         line-height: 25px;
+
     }
     
 }
