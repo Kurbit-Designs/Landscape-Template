@@ -245,14 +245,16 @@ p{
         border: none;
         background-color: #8ead3e;
         color: white;
-        cursor: pointer;
         display: block;
         margin: 0 auto;
         margin-top: 20px;
+        transition:  0.6s;
     }
 
     .text-content button:hover{
-        background-color: #83a039;
+        background-color: whitesmoke;
+        color: #8ead3e;
+        transition:  0.6s;
     }
 
     /*----- Quote Section -----*/
@@ -291,15 +293,15 @@ p{
         border: 1px solid whitesmoke;
         background-color: #9fc246;
         color: whitesmoke;
-        cursor: pointer;
         margin: 0 auto;
+        transition:  0.6s;
     }
 
     .quote-btn:hover{
         border: 1px solid whitesmoke;
         background-color: whitesmoke;
         color: #9fc246;
-        cursor: pointer;
+        transition:  0.6s;
     }
 
     /*----- About Us Section -----*/
@@ -645,14 +647,16 @@ p{
         border: none;
         background-color: #8ead3e;
         color: white;
-        cursor: pointer;
         display: block;
         margin: 0 auto;
         margin-top: 20px;
+        transition:  0.6s;
     }
 
     .text-content button:hover{
-        background-color: #83a039;
+        background-color: whitesmoke;
+        color: #8ead3e;
+        transition:  0.6s;
     }
 
     /*----- Quote Section -----*/
@@ -686,16 +690,16 @@ p{
         border: 1px solid whitesmoke;
         background-color: #9fc246;
         color: whitesmoke;
-        cursor: pointer;
         margin-top: 27px;
         margin-right: 20px;
+        transition:  0.6s;
     }
 
     .quote-btn:hover{
         border: 1px solid whitesmoke;
         background-color: whitesmoke;
         color: #9fc246;
-        cursor: pointer;
+        transition:  0.6s;
     }
 
     /*----- About Us Section -----*/
@@ -1046,10 +1050,13 @@ p{
         display: block;
         margin: 0 auto;
         margin-top: 20px;
+        transition:  0.6s;
     }
 
     .text-content button:hover{
-        background-color: #9fc246;
+        background-color: whitesmoke;
+        color: #8ead3e;
+        transition:  0.6s;
     }
 
     /*----- Quote Section -----*/
@@ -1086,6 +1093,7 @@ p{
         cursor: pointer;
         margin-top: 27px;
         margin-right: 20px;
+        transition:  0.6s;
     }
 
     .quote-btn:hover{
@@ -1093,6 +1101,7 @@ p{
         background-color: whitesmoke;
         color: #9fc246;
         cursor: pointer;
+        transition:  0.6s;
     }
 
     /*----- About Us Section -----*/
